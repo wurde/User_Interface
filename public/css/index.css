@@ -1262,3 +1262,9 @@ p {
 .text-right {
   text-align: right;
 }
+/**
+ * Link styles
+ */
+a {
+  font-size: 1rem;
+}
