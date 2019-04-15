@@ -1268,6 +1268,12 @@ p {
 a {
   font-size: 1rem;
 }
+/**
+ * Text colors
+ */
+.text-white {
+  color: #FFF;
+}
 .w-100 {
   width: 100%;
 }
@@ -1282,4 +1288,22 @@ a {
 }
 .w-0 {
   width: 0%;
+}
+/**
+ * Variables
+ */
+/**
+ * Background colors
+ */
+.bg-chathams-blue {
+  background-color: #1a4971;
+}
+.bg-matisse {
+  background-color: #2368a2;
+}
+.bg-bermuda {
+  background-color: #6ed7d3;
+}
+.bg-sail {
+  background-color: #aad4f5;
 }
