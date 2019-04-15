@@ -1299,6 +1299,12 @@ nav a {
 .text-white {
   color: #FFF;
 }
+/**
+ * Font weights
+ */
+.text-bold {
+  font-weight: 700;
+}
 .w-100 {
   width: 100%;
 }
