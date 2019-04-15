@@ -1250,6 +1250,9 @@ p {
   font-size: 1.6rem;
   padding-bottom: 10px;
 }
+footer p {
+  font-size: 1rem;
+}
 /**
  * Text alignment
  */
