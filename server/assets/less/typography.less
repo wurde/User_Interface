@@ -1,0 +1,61 @@
+/**
+ * Typography styles
+ * Description: CSS styles for typography.
+ */
+
+/**
+ * Variables
+ */
+
+@h1-font-size: 2.5rem;
+@h2-font-size: 2rem;
+@h3-font-size: 1.75rem;
+@h4-font-size: 1.5rem;
+@h5-font-size: 1.25rem;
+@h6-font-size: 1rem;
+@headings-margin-bottom: 0.5rem;
+@headings-font-family: inherit;
+@headings-font-weight: 500;
+@headings-line-height: 1.2;
+@headings-color: inherit;
+
+/**
+ * Heading styles
+ *
+ * 1. Remove top margins from headings.
+ */
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-top: 0; // 1
+  margin-bottom: @headings-margin-bottom;
+  font-family: @headings-font-family;
+  font-weight: @headings-font-weight;
+  line-height: @headings-line-height;
+  color: @headings-color;
+}
+
+h1, .h1 { font-size: @h1-font-size; }
+h2, .h2 { font-size: @h2-font-size; }
+h3, .h3 { font-size: @h3-font-size; }
+h4, .h4 { font-size: @h4-font-size; }
+h5, .h5 { font-size: @h5-font-size; }
+h6, .h6 { font-size: @h6-font-size; }
+
+/**
+ * Paragraph styles
+ */
+
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+
+/**
+ * Text alignment
+ */
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }

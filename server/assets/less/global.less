@@ -1,0 +1,54 @@
+/**
+ * Global styles
+ * Description: A CSS reboot of base styles.
+ */
+
+/**
+ * Variables
+ */
+
+@font-family-base:  Arial, Helvetica, sans-serif;
+@font-size-base:    62.5%;
+@font-weight-base:  400;
+@line-height-base:  1.5;
+@body-bg:           #fff;
+@body-color:        #212529;
+
+/**
+ * Ensure `width` is not affected by `padding` or `border`.
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/**
+ * Body section styles
+ *
+ * 1. Remove the margin in all browsers.
+ * 2. Change the default font family in all browsers.
+ * 3. Assumes the browser default, typically `16px`.
+ */
+
+body {
+  margin: 0; // 1
+  font-family: @font-family-base; // 2
+  font-size: @font-size-base; // 3
+  font-weight: @font-weight-base;
+  line-height: @line-height-base;
+  background-color: @body-bg;
+  color: @body-color;
+  text-align: left;
+}
+
+/**
+ * Always hide an element with the `hidden` HTML attribute.
+ * Needed for proper display in IE 10.
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
