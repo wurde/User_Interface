@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/bw-startup/User_Interface/issues"
   },
-  "homepage": "https://github.com/bw-startup/User_Interface#readme"
+  "homepage": "https://github.com/bw-startup/User_Interface#readme",
+  "devDependencies": {
+    "less-watch-compiler": "^1.13.0",
+    "live-server": "^1.2.1"
+  }
 }
