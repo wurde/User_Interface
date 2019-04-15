@@ -1271,6 +1271,10 @@ footer p {
 a {
   font-size: 1rem;
 }
+nav a {
+  color: #333;
+  text-decoration: none;
+}
 /**
  * Text colors
  */
@@ -1318,4 +1322,24 @@ a {
 }
 .bg-emerald {
   background-color: #38c172;
+}
+.btn {
+  border: 1px solid #249d57;
+  border-radius: 5px;
+  color: #249d57;
+  font-size: 1.3rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding-right: 3rem !important;
+  padding-left: 3rem !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+.btn:hover {
+  background-color: #38c172;
+  border: 1px solid #249d57;
+  color: #FFF;
+}
+.btn:active {
+  background-color: #187741;
 }
