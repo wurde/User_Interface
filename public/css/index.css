@@ -1365,6 +1365,9 @@ nav a {
 .bg-color-grey-333 {
   background-color: #333;
 }
+.bg-eucalyptus {
+  background-color: #249d57;
+}
 .btn {
   border: 1px solid #249d57;
   border-radius: 5px;
