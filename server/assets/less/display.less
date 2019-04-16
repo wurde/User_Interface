@@ -1,0 +1,41 @@
+/**
+ * Display styles
+ * Description: A reusable class-based method for toggling visibility.
+ * https://drafts.csswg.org/css2/visuren.html#propdef-display
+ */
+
+/**
+ * Set display
+ */
+
+each(@displays, {
+  .d-@{value} {
+    display: @value !important;
+  }
+});
+
+.make-displays(@size) {
+  each(@displays, {
+    .d-@{size}-@{value} {
+      display: @value !important;
+    }
+  });
+}
+
+each(@grid-breakpoints {
+  @media (min-width: @value) {
+    .make-displays(@key);
+  };
+});
+
+/**
+ * Toggle visibility
+ */
+
+.visible {
+  visibility: visible !important;
+}
+
+.invisible {
+  visibility: hidden !important;
+}

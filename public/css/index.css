@@ -1,5 +1,5 @@
 /**
- * Reset stylesheets
+ * Reset browser styles
  */
 /*
   http://meyerweb.com/eric/tools/css/reset/
@@ -131,14 +131,35 @@ table {
   border-spacing: 0;
 }
 /**
+ * Import style variables
+ */
+/**
+ * Variables for global styles
+ */
+/*
+  Variables for the grid
+*/
+/**
+ * Variables for border colors
+ */
+/*
+  Variables spacing content
+*/
+/**
+ * Variables for typography
+ */
+/**
+ * Variables for color
+ */
+/**
+ * Variables for display
+ */
+/**
  * Import global classes
  */
 /**
  * Global styles
  * Description: A CSS reboot of base styles.
- */
-/**
- * Variables
  */
 /**
  * Ensure `width` is not affected by `padding` or `border`.
@@ -188,9 +209,6 @@ body {
  * Nestable: true
  * Column ordering: true
  */
-/*
-  Variables
-*/
 /**
  * Mixins
  */
@@ -627,6 +645,357 @@ body {
   align-self: stretch;
 }
 /**
+ * Ordering of columns
+ */
+.order-1 {
+  order: 1;
+}
+.order-2 {
+  order: 2;
+}
+.order-3 {
+  order: 3;
+}
+.order-4 {
+  order: 4;
+}
+.order-5 {
+  order: 5;
+}
+.order-6 {
+  order: 6;
+}
+.order-7 {
+  order: 7;
+}
+.order-8 {
+  order: 8;
+}
+.order-9 {
+  order: 9;
+}
+.order-10 {
+  order: 10;
+}
+.order-11 {
+  order: 11;
+}
+.order-12 {
+  order: 12;
+}
+@media (min-width: 576px) {
+  .order-sm-1 {
+    order: 1;
+  }
+  .order-sm-2 {
+    order: 2;
+  }
+  .order-sm-3 {
+    order: 3;
+  }
+  .order-sm-4 {
+    order: 4;
+  }
+  .order-sm-5 {
+    order: 5;
+  }
+  .order-sm-6 {
+    order: 6;
+  }
+  .order-sm-7 {
+    order: 7;
+  }
+  .order-sm-8 {
+    order: 8;
+  }
+  .order-sm-9 {
+    order: 9;
+  }
+  .order-sm-10 {
+    order: 10;
+  }
+  .order-sm-11 {
+    order: 11;
+  }
+  .order-sm-12 {
+    order: 12;
+  }
+}
+@media (min-width: 768px) {
+  .order-md-1 {
+    order: 1;
+  }
+  .order-md-2 {
+    order: 2;
+  }
+  .order-md-3 {
+    order: 3;
+  }
+  .order-md-4 {
+    order: 4;
+  }
+  .order-md-5 {
+    order: 5;
+  }
+  .order-md-6 {
+    order: 6;
+  }
+  .order-md-7 {
+    order: 7;
+  }
+  .order-md-8 {
+    order: 8;
+  }
+  .order-md-9 {
+    order: 9;
+  }
+  .order-md-10 {
+    order: 10;
+  }
+  .order-md-11 {
+    order: 11;
+  }
+  .order-md-12 {
+    order: 12;
+  }
+}
+@media (min-width: 992px) {
+  .order-lg-1 {
+    order: 1;
+  }
+  .order-lg-2 {
+    order: 2;
+  }
+  .order-lg-3 {
+    order: 3;
+  }
+  .order-lg-4 {
+    order: 4;
+  }
+  .order-lg-5 {
+    order: 5;
+  }
+  .order-lg-6 {
+    order: 6;
+  }
+  .order-lg-7 {
+    order: 7;
+  }
+  .order-lg-8 {
+    order: 8;
+  }
+  .order-lg-9 {
+    order: 9;
+  }
+  .order-lg-10 {
+    order: 10;
+  }
+  .order-lg-11 {
+    order: 11;
+  }
+  .order-lg-12 {
+    order: 12;
+  }
+}
+@media (min-width: 1200px) {
+  .order-xl-1 {
+    order: 1;
+  }
+  .order-xl-2 {
+    order: 2;
+  }
+  .order-xl-3 {
+    order: 3;
+  }
+  .order-xl-4 {
+    order: 4;
+  }
+  .order-xl-5 {
+    order: 5;
+  }
+  .order-xl-6 {
+    order: 6;
+  }
+  .order-xl-7 {
+    order: 7;
+  }
+  .order-xl-8 {
+    order: 8;
+  }
+  .order-xl-9 {
+    order: 9;
+  }
+  .order-xl-10 {
+    order: 10;
+  }
+  .order-xl-11 {
+    order: 11;
+  }
+  .order-xl-12 {
+    order: 12;
+  }
+}
+/**
+ * Display styles
+ * Description: A reusable class-based method for toggling visibility.
+ * https://drafts.csswg.org/css2/visuren.html#propdef-display
+ */
+/**
+ * Set display
+ */
+.d-none {
+  display: none !important;
+}
+.d-inline {
+  display: inline !important;
+}
+.d-inline-block {
+  display: inline-block !important;
+}
+.d-block {
+  display: block !important;
+}
+.d-table {
+  display: table !important;
+}
+.d-table-cell {
+  display: table-cell !important;
+}
+.d-table-row {
+  display: table-row !important;
+}
+.d-flex {
+  display: flex !important;
+}
+.d-inline-flex {
+  display: inline-flex !important;
+}
+@media (min-width: 576px) {
+  .d-sm-none {
+    display: none !important;
+  }
+  .d-sm-inline {
+    display: inline !important;
+  }
+  .d-sm-inline-block {
+    display: inline-block !important;
+  }
+  .d-sm-block {
+    display: block !important;
+  }
+  .d-sm-table {
+    display: table !important;
+  }
+  .d-sm-table-cell {
+    display: table-cell !important;
+  }
+  .d-sm-table-row {
+    display: table-row !important;
+  }
+  .d-sm-flex {
+    display: flex !important;
+  }
+  .d-sm-inline-flex {
+    display: inline-flex !important;
+  }
+}
+@media (min-width: 768px) {
+  .d-md-none {
+    display: none !important;
+  }
+  .d-md-inline {
+    display: inline !important;
+  }
+  .d-md-inline-block {
+    display: inline-block !important;
+  }
+  .d-md-block {
+    display: block !important;
+  }
+  .d-md-table {
+    display: table !important;
+  }
+  .d-md-table-cell {
+    display: table-cell !important;
+  }
+  .d-md-table-row {
+    display: table-row !important;
+  }
+  .d-md-flex {
+    display: flex !important;
+  }
+  .d-md-inline-flex {
+    display: inline-flex !important;
+  }
+}
+@media (min-width: 992px) {
+  .d-lg-none {
+    display: none !important;
+  }
+  .d-lg-inline {
+    display: inline !important;
+  }
+  .d-lg-inline-block {
+    display: inline-block !important;
+  }
+  .d-lg-block {
+    display: block !important;
+  }
+  .d-lg-table {
+    display: table !important;
+  }
+  .d-lg-table-cell {
+    display: table-cell !important;
+  }
+  .d-lg-table-row {
+    display: table-row !important;
+  }
+  .d-lg-flex {
+    display: flex !important;
+  }
+  .d-lg-inline-flex {
+    display: inline-flex !important;
+  }
+}
+@media (min-width: 1200px) {
+  .d-xl-none {
+    display: none !important;
+  }
+  .d-xl-inline {
+    display: inline !important;
+  }
+  .d-xl-inline-block {
+    display: inline-block !important;
+  }
+  .d-xl-block {
+    display: block !important;
+  }
+  .d-xl-table {
+    display: table !important;
+  }
+  .d-xl-table-cell {
+    display: table-cell !important;
+  }
+  .d-xl-table-row {
+    display: table-row !important;
+  }
+  .d-xl-flex {
+    display: flex !important;
+  }
+  .d-xl-inline-flex {
+    display: inline-flex !important;
+  }
+}
+/**
+ * Toggle visibility
+ */
+.visible {
+  visibility: visible !important;
+}
+.invisible {
+  visibility: hidden !important;
+}
+/**
  * Import other class-based styles.
  */
 /**
@@ -657,9 +1026,6 @@ body {
  * Shorthand: border-color
  * Properties:
  *   border-top-color, border-right-color, border-bottom-color, border-left-color
- */
-/**
- * Variables
  */
 /**
  * Base border clasess
@@ -877,9 +1243,6 @@ body {
  * https://drafts.csswg.org/css2/box.html#box-margin-area
  * https://drafts.csswg.org/css2/box.html#box-padding-area
  */
-/*
-  Variables
-*/
 /*
   Padding classes
 */
@@ -1213,9 +1576,6 @@ body {
  * Description: CSS styles for typography.
  */
 /**
- * Variables
- */
-/**
  * Heading styles
  *
  * 1. Remove top margins from headings.
@@ -1336,9 +1696,6 @@ nav a {
   height: 0%;
 }
 /**
- * Variables
- */
-/**
  * Background colors
  */
 .bg-chathams-blue {
@@ -1365,6 +1722,9 @@ nav a {
 .bg-color-grey-333 {
   background-color: #333;
 }
+/**
+ * Buttons
+ */
 .btn {
   border: 1px solid #249d57;
   border-radius: 5px;
