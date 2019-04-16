@@ -1,5 +1,5 @@
 /**
- * Reset stylesheets
+ * Reset browser styles
  */
 /*
   http://meyerweb.com/eric/tools/css/reset/
@@ -130,6 +130,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/**
+ * Import style variables
+ */
+/**
+ * Variables for border colors
+ */
 /**
  * Import global classes
  */
@@ -848,9 +854,6 @@ body {
  * Shorthand: border-color
  * Properties:
  *   border-top-color, border-right-color, border-bottom-color, border-left-color
- */
-/**
- * Variables
  */
 /**
  * Base border clasess
