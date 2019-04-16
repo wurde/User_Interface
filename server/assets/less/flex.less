@@ -72,3 +72,58 @@
 .align-self-stretch {
   align-self: stretch;
 }
+
+/**
+ * Ordering of columns
+ */
+
+.order-1 {
+  order: 1;
+}
+.order-2 {
+  order: 2;
+}
+.order-3 {
+  order: 3;
+}
+.order-4 {
+  order: 4;
+}
+.order-5 {
+  order: 5;
+}
+.order-6 {
+  order: 6;
+}
+.order-7 {
+  order: 7;
+}
+.order-8 {
+  order: 8;
+}
+.order-9 {
+  order: 9;
+}
+.order-10 {
+  order: 10;
+}
+.order-11 {
+  order: 11;
+}
+.order-12 {
+  order: 12;
+}
+
+.make-orders(@size) {
+  each(range(@grid-column-count) {
+    .order-@{size}-@{value} {
+      order: @value;
+    }
+  })
+}
+
+each(@grid-breakpoints {
+  @media (min-width: @value) {
+    .make-orders(@key);
+  };
+});
