@@ -1,0 +1,26 @@
+{
+  "name": "User_Interface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "less-watch-compiler server/assets/less public/css index.less --run-once",
+    "build:watch": "less-watch-compiler server/assets/less public/css index.less"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bw-startup/User_Interface.git"
+  },
+  "keywords": [],
+  "author": ["Andy Bettisworth", "Ming Liu"],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bw-startup/User_Interface/issues"
+  },
+  "homepage": "https://github.com/bw-startup/User_Interface#readme",
+  "devDependencies": {
+    "less-watch-compiler": "^1.13.0",
+    "live-server": "^1.2.1"
+  }
+}
