@@ -13,7 +13,10 @@
     "url": "git+https://github.com/bw-startup/User_Interface.git"
   },
   "keywords": [],
-  "author": ["Andy Bettisworth", "Ming Liu"],
+  "author": [
+    "Andy Bettisworth",
+    "Ming Liu"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bw-startup/User_Interface/issues"
