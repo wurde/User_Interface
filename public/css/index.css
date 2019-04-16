@@ -1649,7 +1649,7 @@ p {
 a {
   font-size: 1rem;
 }
-nav a {
+#top-header a {
   color: #333;
   text-decoration: none;
 }
