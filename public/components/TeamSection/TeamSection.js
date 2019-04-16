@@ -5,15 +5,15 @@
  */
 
 const data = [
+  {name: "Audrey Akwenye", email: "pending@gmail.com", github: "https://github.com/", role: "Team Leader"},
   {name: "Andy Bettisworth", email: "andy@accreu.com", github: "https://github.com/wurde", role: "UI"},
+  {name: "Alex", email: "pending@gmail.com", github: "https://github.com/AlexEntrepreneur", role: "Backend"},
+  {name: "Christian Ipanaque", email: "pending@gmail.com", github: "https://github.com/", role: "Frontend"},
+  {name: "Chris Schröder", email: "os.schroeder@gmail.com", github: "https://github.com/", role: "DS"},
+  {name: "Donaldo Celaj", email: "Donaldocelaj@gmail.com", github: "https://github.com/donaldocelaj", role: "DS"},
   {name: "Ming Liu", email: "ming@brooksidemediaco.com", github: "https://github.com/skysthelimit68", role: "UI"},
   {name: "Olympia Wojcik", email: "owojcik7@gmail.com", github: "https://github.com/olympiawoj", role: "Backend"},
-  {name: "Donaldo Celaj", email: "Donaldocelaj@gmail.com", github: "https://github.com/donaldocelaj", role: "DS"},
-  {name: "Alex", email: "pending@gmail.com", github: "https://github.com/AlexEntrepreneur", role: "Backend"},
   {name: "Sammy Lee", email: "gygantor@protonmail.com", github: "https://github.com/", role: "DS"},
-  {name: "Chris Schröder", email: "os.schroeder@gmail.com", github: "https://github.com/", role: "DS"},
-  {name: "Christian Ipanaque", email: "pending@gmail.com", github: "https://github.com/", role: "Frontend"},
-  {name: "Audrey Akwenye", email: "pending@gmail.com", github: "https://github.com/", role: "Team Leader"}
 ]
 
 /**
