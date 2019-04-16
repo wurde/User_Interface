@@ -8,24 +8,18 @@
  * Set display
  */
 
-.d-flex {
-  display: flex;
-}
-
-.d-none {
-  display: none;
-}
-
-.d-block {
-  display: block;
-}
+each(@displays, {
+  .d-@{value} {
+    display: @value !important;
+  }
+});
 
 .make-displays(@size) {
-  each(range(@grid-column-count) {
+  each(@displays, {
     .d-@{size}-@{value} {
-      display: @value;
+      display: @value !important;
     }
-  })
+  });
 }
 
 each(@grid-breakpoints {

@@ -134,7 +134,25 @@ table {
  * Import style variables
  */
 /**
+ * Variables for global styles
+ */
+/*
+  Variables for the grid
+*/
+/**
  * Variables for border colors
+ */
+/*
+  Variables spacing content
+*/
+/**
+ * Variables for typography
+ */
+/**
+ * Variables for color
+ */
+/**
+ * Variables for display
  */
 /**
  * Import global classes
@@ -142,9 +160,6 @@ table {
 /**
  * Global styles
  * Description: A CSS reboot of base styles.
- */
-/**
- * Variables
  */
 /**
  * Ensure `width` is not affected by `padding` or `border`.
@@ -194,9 +209,6 @@ body {
  * Nestable: true
  * Column ordering: true
  */
-/*
-  Variables
-*/
 /**
  * Mixins
  */
@@ -824,6 +836,166 @@ body {
   }
 }
 /**
+ * Display styles
+ * Description: A reusable class-based method for toggling visibility.
+ * https://drafts.csswg.org/css2/visuren.html#propdef-display
+ */
+/**
+ * Set display
+ */
+.d-none {
+  display: none !important;
+}
+.d-inline {
+  display: inline !important;
+}
+.d-inline-block {
+  display: inline-block !important;
+}
+.d-block {
+  display: block !important;
+}
+.d-table {
+  display: table !important;
+}
+.d-table-cell {
+  display: table-cell !important;
+}
+.d-table-row {
+  display: table-row !important;
+}
+.d-flex {
+  display: flex !important;
+}
+.d-inline-flex {
+  display: inline-flex !important;
+}
+@media (min-width: 576px) {
+  .d-sm-none {
+    display: none !important;
+  }
+  .d-sm-inline {
+    display: inline !important;
+  }
+  .d-sm-inline-block {
+    display: inline-block !important;
+  }
+  .d-sm-block {
+    display: block !important;
+  }
+  .d-sm-table {
+    display: table !important;
+  }
+  .d-sm-table-cell {
+    display: table-cell !important;
+  }
+  .d-sm-table-row {
+    display: table-row !important;
+  }
+  .d-sm-flex {
+    display: flex !important;
+  }
+  .d-sm-inline-flex {
+    display: inline-flex !important;
+  }
+}
+@media (min-width: 768px) {
+  .d-md-none {
+    display: none !important;
+  }
+  .d-md-inline {
+    display: inline !important;
+  }
+  .d-md-inline-block {
+    display: inline-block !important;
+  }
+  .d-md-block {
+    display: block !important;
+  }
+  .d-md-table {
+    display: table !important;
+  }
+  .d-md-table-cell {
+    display: table-cell !important;
+  }
+  .d-md-table-row {
+    display: table-row !important;
+  }
+  .d-md-flex {
+    display: flex !important;
+  }
+  .d-md-inline-flex {
+    display: inline-flex !important;
+  }
+}
+@media (min-width: 992px) {
+  .d-lg-none {
+    display: none !important;
+  }
+  .d-lg-inline {
+    display: inline !important;
+  }
+  .d-lg-inline-block {
+    display: inline-block !important;
+  }
+  .d-lg-block {
+    display: block !important;
+  }
+  .d-lg-table {
+    display: table !important;
+  }
+  .d-lg-table-cell {
+    display: table-cell !important;
+  }
+  .d-lg-table-row {
+    display: table-row !important;
+  }
+  .d-lg-flex {
+    display: flex !important;
+  }
+  .d-lg-inline-flex {
+    display: inline-flex !important;
+  }
+}
+@media (min-width: 1200px) {
+  .d-xl-none {
+    display: none !important;
+  }
+  .d-xl-inline {
+    display: inline !important;
+  }
+  .d-xl-inline-block {
+    display: inline-block !important;
+  }
+  .d-xl-block {
+    display: block !important;
+  }
+  .d-xl-table {
+    display: table !important;
+  }
+  .d-xl-table-cell {
+    display: table-cell !important;
+  }
+  .d-xl-table-row {
+    display: table-row !important;
+  }
+  .d-xl-flex {
+    display: flex !important;
+  }
+  .d-xl-inline-flex {
+    display: inline-flex !important;
+  }
+}
+/**
+ * Toggle visibility
+ */
+.visible {
+  visibility: visible !important;
+}
+.invisible {
+  visibility: hidden !important;
+}
+/**
  * Import other class-based styles.
  */
 /**
@@ -1071,9 +1243,6 @@ body {
  * https://drafts.csswg.org/css2/box.html#box-margin-area
  * https://drafts.csswg.org/css2/box.html#box-padding-area
  */
-/*
-  Variables
-*/
 /*
   Padding classes
 */
@@ -1407,9 +1576,6 @@ body {
  * Description: CSS styles for typography.
  */
 /**
- * Variables
- */
-/**
  * Heading styles
  *
  * 1. Remove top margins from headings.
@@ -1530,9 +1696,6 @@ nav a {
   height: 0%;
 }
 /**
- * Variables
- */
-/**
  * Background colors
  */
 .bg-chathams-blue {
@@ -1559,6 +1722,9 @@ nav a {
 .bg-color-grey-333 {
   background-color: #333;
 }
+/**
+ * Buttons
+ */
 .btn {
   border: 1px solid #249d57;
   border-radius: 5px;
